@@ -9,4 +9,4 @@ Quick Tip for restless developers
 * Change the email id in `bin\ppe_app_ts.ts` to an email id on which you want to receive the notification
 * run `npm install` in root directory and in lambda directory
 * run `cdk deploy --all` to deploy the application
-* Do not forget to run `cdk destroy --all`
+* Do not forget to run `cdk destroy --all` to destroy all stacks
