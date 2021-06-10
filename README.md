@@ -8,4 +8,5 @@ Quick Tip for restless developers
 * Ensure you have cdk cli installed. Details [here](!https://docs.aws.amazon.com/cdk/latest/guide/cli.html). Follow instructions mentioned in `Specifying credentials and region` section as well to make sure CDK Toolkit knows your AWS account credentials and the AWS region into which you are deploying.
 * Change the email id in `bin\ppe_app_ts.ts` to an email id on which you want to receive the notification
 * run `npm install` in root directory and in lambda directory
-* run `cdk deploy --all`
+* run `cdk deploy --all` to deploy the application
+* Do not forget to run `cdk destroy --all`
