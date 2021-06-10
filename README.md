@@ -2,13 +2,10 @@
 
 This is a sample code used in [this](https://detect-personal-protective-equipment.workshop.aws/en/) workshop .
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+For more information on how to deploy the application , please visit the link above.
 
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+Quick Tip for restless developers
+* Ensure you have cdk cli installed. Details [here](!https://docs.aws.amazon.com/cdk/latest/guide/cli.html). Follow instructions mentioned in `Specifying credentials and region` section as well to make sure CDK Toolkit knows your AWS account credentials and the AWS region into which you are deploying.
+* Change the email id in `bin\ppe_app_ts.ts` to an email id on which you want to receive the notification
+* run `npm install` in root directory and in lambda directory
+* run `cdk deploy --all`
