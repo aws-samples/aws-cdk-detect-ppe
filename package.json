@@ -11,7 +11,7 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.76.0",
+    "@aws-cdk/assert": "1.195.0",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "aws-cdk": "1.174.0",
@@ -21,16 +21,16 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-dynamodb": "^1.82.0",
-    "@aws-cdk/aws-events": "^1.82.0",
-    "@aws-cdk/aws-iam": "^1.82.0",
-    "@aws-cdk/aws-lambda": "^1.82.0",
-    "@aws-cdk/aws-lambda-event-sources": "^1.82.0",
-    "@aws-cdk/aws-s3": "^1.82.0",
-    "@aws-cdk/aws-s3-notifications": "^1.82.0",
-    "@aws-cdk/aws-sns": "^1.82.0",
-    "@aws-cdk/aws-sns-subscriptions": "^1.82.0",
-    "@aws-cdk/aws-sqs": "^1.82.0",
+    "@aws-cdk/aws-dynamodb": "^1.195.0",
+    "@aws-cdk/aws-events": "^1.195.0",
+    "@aws-cdk/aws-iam": "^1.195.0",
+    "@aws-cdk/aws-lambda": "^1.195.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.195.0",
+    "@aws-cdk/aws-s3": "^1.195.0",
+    "@aws-cdk/aws-s3-notifications": "^1.195.0",
+    "@aws-cdk/aws-sns": "^1.195.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.195.0",
+    "@aws-cdk/aws-sqs": "^1.195.0",
     "@aws-cdk/core": "1.76.0",
     "aws-sdk": "^2.820.0",
     "source-map-support": "^0.5.16"
